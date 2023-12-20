@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="papanoel.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="candy.css">
+    <title>Cómeme!</title>
+</head>
+<body>
+    <main class="main-container">
+    <h1 class="candy-title">Click on me to eat me!</h1>
+    <div class="candy" id="candy" onclick="bite()">
+        <img src="candy.png" alt="Bastón de Navidad">
+        <div class="candyBite" id="candyBite"></div>
+    </div>
+    <button class="buttonCandy" id="candy" onClick=resetCandy()>Reset Candy here!</button>
+    <div id="modalLink" class="modal-container">
+        <div class="modal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p class="modal-text">Oh! Ya te la comiste? Si te quedas con hambre: <a href="https://mundohuevo.com/product/baston-de-caramelo-navideno-x-20-unds/" target="_blank">Puedes comprar más aquí</a></p>
+        </div>
+
+    </div>
+    <script src="candy.js"></script>
+</main>
+</body>
+</html>
