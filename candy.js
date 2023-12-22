@@ -4,7 +4,7 @@ function bite() {
     clicks++;
 
     if (clicks <= 3) {
-        document.getElementById('candy').style.clipPath = `polygon(0 0, ${100 - 30 * clicks}% 0, ${100 - 30 * clicks}% 100%, 0 100%)`;
+        document.getElementById('candy').style.clipPath = `polygon(0 0, ${100 - 35 * clicks}% 35%, ${100 - 35 * clicks}% 100%, 0 100%)`;
         document.getElementById('candyBite').style.opacity = (clicks < 3) ? 1 : 0;
     }
 

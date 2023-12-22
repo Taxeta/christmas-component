@@ -1,7 +1,7 @@
-Bienvenidos a mi componente inútil interactivo!
+Welcome to my interactive useless component!
 
-Este componente realiza varias funciones, la más importante: con cada click en la imagen le pegarás un bocado al caramelo!
+This component performs several functions, the most important: with each click on the image you will take a bite of the candy!
 
-Si te lo acabas no te preocupes, aparecerá un link dónde puedes comprar más!
+If you finish it, don't worry, a link will appear where you can buy more!
 
-Uso responsable del componente: Recomiendo no usarlo demasiado, después de hacerlo varias veces te entrará hambre.
+Responsible use of the component: I recommend not using it too much, after doing it several times you will get hungry.
